@@ -1,19 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+import { JarockiMeLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { InstagramIcon } from "lucide-react";
 import AnchorWatch from "@/images/logos/AnchorWatch.svg";
@@ -26,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "Front-end Engineer focused on building products with extra attention to detail",
   summary:
-    "Detail-oriented Frontend Engineer with a focus on creating exceptional user experiences using React and TypeScript. Currently contributing to the success of AnchorWatch in Raleigh, NC, by delivering user-friendly and accessible web solutions. Demonstrated proficiency in consistently meeting project milestones and implementing a well-organized development process.",
+    "Detail-oriented Front-end Developer with a focus on creating exceptional user experiences. My core stack is JavaScript, React, Next.js, and MongoDB. I am also familiar with TypeScript and SQL. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
   avatarUrl: "https://avatars.githubusercontent.com/u/101609705?v=4",
   personalWebsiteUrl: "https://www.aniia.dev/",
   contact: {
@@ -42,11 +27,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/aniia-hamilton/",
         icon: LinkedInIcon,
       },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/aniiahamilton/",
-        icon: InstagramIcon,
-      },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/aniiahamilton/",
+      //   icon: InstagramIcon,
+      // },
     ],
   },
   education: [
@@ -91,11 +76,17 @@ export const RESUME_DATA = {
   ],
   skills: [
     "JavaScript",
+    "HTML/CSS",
     "TypeScript",
-    "React/Next.js",
-    "Tailwind CSS",
+    "React",
+    "Next.js",
+    "Tailwind",
     "Cypress",
-    "Git",
+    "Responsive/Mobile Design",
+    "Web Performance",
+    "Problem-Solving",
+    "Creativity",
+    "Teamwork",
   ],
   projects: [
     {
@@ -117,22 +108,35 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Linktree",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Linktree project",
-      logo: "",
+      title: "Trident",
+      techStack: [
+        "Contract",
+        "TypeScript",
+        "Next.js",
+        "Tailwind",
+        "Shadcn",
+        "Custom Componenets",
+        "Zod",
+      ],
+      description: "Light Mode for Trident Vault",
       link: {
-        label: "linktree.aniia.dev",
-        href: "https://linktree.aniia.dev/",
+        label: "trident",
+        href: "",
       },
     },
     {
-      title: "Aniia.Dev",
-      techStack: ["Side Project", "Next.js"],
-      description: "My personal website and blog. Built with Next.js and TypeScript",
-      logo: JarockiMeLogo,
+      title: "My Portfolio Website",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "Framer-Motion",
+      ],
+      description:
+        "My personal website and blog. Built with Next.js, TypeScript, Tailwind and Framer-Motion",
       link: {
-        label: "github.com",
+        label: "aniia.dev",
         href: "https://aniia.dev/",
       },
     },
