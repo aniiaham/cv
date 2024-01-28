@@ -1,5 +1,4 @@
-import { JarockiMeLogo } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import { InstagramIcon } from "lucide-react";
 import AnchorWatch from "@/images/logos/AnchorWatch.svg";
 
@@ -8,10 +7,9 @@ export const RESUME_DATA = {
   initials: "AH",
   location: "Raleigh, North Carolina, United States",
   locationLink: "https://maps.app.goo.gl/EmsevE51WQqASxpT8",
-  about:
-    "Front-end Engineer focused on building products with extra attention to detail",
+  about: "Front-end Developer with 1+ years of experience",
   summary:
-    "Detail-oriented Front-end Developer with a focus on creating exceptional user experiences. My core stack is JavaScript, React, Next.js, and MongoDB. I am also familiar with TypeScript and SQL. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
+    "Detail-oriented Front-end Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am also familiar with SQL. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
   avatarUrl: "https://avatars.githubusercontent.com/u/101609705?v=4",
   personalWebsiteUrl: "https://www.aniia.dev/",
   contact: {
@@ -37,7 +35,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Kazan Federal University | Russia",
-      degree: "Bachelor’s Degree in Mathematics and Computer Science",
+      degree: "Bachelor’s Degree in Applied Mathematics and Computer Science",
       start: "2016",
       end: "2020",
     },
@@ -46,7 +44,7 @@ export const RESUME_DATA = {
     {
       company: "AnchorWatch",
       link: "https://anchorwatch.com",
-      badges: ["Remote"],
+      badges: ["Contract"],
       title: "Front-end Developer",
       start: "2023",
       end: "Current",
@@ -56,7 +54,7 @@ export const RESUME_DATA = {
     {
       company: "TRAY Agency",
       link: "https://clevertech.biz",
-      badges: ["On site"],
+      badges: ["Full-time"],
       title: "Social Media Manager → Social Media Lead",
       start: "2021",
       end: "2022",
@@ -66,7 +64,7 @@ export const RESUME_DATA = {
     {
       company: "Begishevo Airport",
       link: "https://nbc.aero/",
-      badges: ["On site"],
+      badges: ["Full-time"],
       title: "Software Engineer",
       start: "2020",
       end: "2021",
