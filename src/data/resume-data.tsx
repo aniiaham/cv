@@ -51,18 +51,18 @@ export const RESUME_DATA = {
       description:
         "Implemented new features, delivered a fully functional website with a focus on user-friendly navigation and information accessibility. Successfully met weekly milestones, ensuring a structured and timely development process.  Technologies:  React, TypeScript, TailwindCSS, Next.js,Framer Motion,  Shadcn, Radix-ui, Zod, React-Hook-Form",
     },
+    // {
+    //   company: "TRAY Agency",
+    //   link: "https://clevertech.biz",
+    //   badges: ["Full-time"],
+    //   title: "Social Media Manager → Social Media Lead",
+    //   start: "2021",
+    //   end: "2022",
+    //   description:
+    //     "Designed and implemented comprehensive social media strategies to increase brand awareness and engagement, led a team of social media managers, monitored and analyzed social media metrics. ",
+    // },
     {
-      company: "TRAY Agency",
-      link: "https://clevertech.biz",
-      badges: ["Full-time"],
-      title: "Social Media Manager → Social Media Lead",
-      start: "2021",
-      end: "2022",
-      description:
-        "Designed and implemented comprehensive social media strategies to increase brand awareness and engagement, led a team of social media managers, monitored and analyzed social media metrics. ",
-    },
-    {
-      company: "Begishevo Airport",
+      company: "Begishevo International Airport",
       link: "https://nbc.aero/",
       badges: ["Full-time"],
       title: "Software Engineer",
@@ -80,6 +80,7 @@ export const RESUME_DATA = {
     "Next.js",
     "Tailwind",
     "Cypress",
+    "Figma",
     "Responsive/Mobile Design",
     "Web Performance",
     "Problem-Solving",
