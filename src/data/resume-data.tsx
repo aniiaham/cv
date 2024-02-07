@@ -7,9 +7,10 @@ export const RESUME_DATA = {
   initials: "AH",
   location: "Raleigh, North Carolina, United States",
   locationLink: "https://maps.app.goo.gl/EmsevE51WQqASxpT8",
-  about: "Front-end Developer with 1+ years of experience",
+  about:
+    "Front-end Developer with 1+ years of experience |  Authorized to work for any US employer",
   summary:
-    "Detail-oriented Front-end Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am also familiar with SQL. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
+    "Detail-oriented Front-end Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
   avatarUrl: "https://avatars.githubusercontent.com/u/101609705?v=4",
   personalWebsiteUrl: "https://www.aniia.dev/",
   contact: {
@@ -81,8 +82,8 @@ export const RESUME_DATA = {
     "Tailwind",
     "Cypress",
     "Figma",
-    "Responsive/Mobile Design",
-    "Web Performance",
+    "Responsive Design",
+    "Performance Optimization",
     "Problem-Solving",
     "Creativity",
     "Teamwork",
@@ -93,13 +94,14 @@ export const RESUME_DATA = {
       techStack: [
         "Contract",
         "TypeScript",
+        "React",
         "Next.js",
-        "Tailwind",
+        "Tailwind CSS",
         "Zod",
         "React-Hook-Form",
-        "Framer-Motion",
+        "Framer Motion",
       ],
-      description: "A marketing website for Insurance Company",
+      description: "A marketing website for an Insurance Company.",
       logo: AnchorWatch,
       link: {
         label: "anchorwatch.com",
@@ -111,13 +113,15 @@ export const RESUME_DATA = {
       techStack: [
         "Contract",
         "TypeScript",
+        "React",
         "Next.js",
-        "Tailwind",
+        "Tailwind CSS",
         "Shadcn",
         "Custom Componenets",
         "Zod",
       ],
-      description: "Light Mode for Trident Vault",
+      description:
+        "I'm currently working on the light mode of the Trident Vault project. Will be live Q2.",
       link: {
         label: "trident",
         href: "",
@@ -128,9 +132,10 @@ export const RESUME_DATA = {
       techStack: [
         "Side Project",
         "Next.js",
+        "Raect",
         "TypeScript",
-        "Tailwind",
-        "Framer-Motion",
+        "Tailwind CSS",
+        "Framer Motion",
       ],
       description:
         "My personal website and blog. Built with Next.js, TypeScript, Tailwind and Framer-Motion",
