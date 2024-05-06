@@ -5,7 +5,7 @@ import AnchorWatch from "@/images/logos/AnchorWatch.svg";
 export const RESUME_DATA = {
   name: "Aniia Hamilton",
   initials: "AH",
-  location: "Raleigh, North Carolina, United States",
+  location: "Nashville, Tennessee, United States",
   locationLink: "https://maps.app.goo.gl/EmsevE51WQqASxpT8",
   about:
     "Front-end Developer with 1+ years of experience |  Authorized to work for any US employer",
@@ -50,18 +50,18 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Current",
       description:
-        "Implemented new features, delivered a fully functional website with a focus on user-friendly navigation and information accessibility. Successfully met weekly milestones, ensuring a structured and timely development process.  Technologies:  React, TypeScript, TailwindCSS, Next.js,Framer Motion,  Shadcn, Radix-ui, Zod, React-Hook-Form",
+        "Utilized TypeScript, React, Next.js, and Framer-Motion to develop an interactive layout that enhanced user engagement and satisfaction on the website. Implemented new features and delivered a fully functional website with improved navigation. Designed a responsive website for desktop and mobile devices using Tailwind CSS, leading to mobile traffic and overall user satisfaction. Successfully met milestones, ensuring a structured and timely development process. Technologies: React, TypeScript, Tailwind CSS, Next.js, Node.js, Framer Motion, Shadcn, Radix-ui, Zod, React-Hook-Form",
     },
-    // {
-    //   company: "TRAY Agency",
-    //   link: "https://clevertech.biz",
-    //   badges: ["Full-time"],
-    //   title: "Social Media Manager → Social Media Lead",
-    //   start: "2021",
-    //   end: "2022",
-    //   description:
-    //     "Designed and implemented comprehensive social media strategies to increase brand awareness and engagement, led a team of social media managers, monitored and analyzed social media metrics. ",
-    // },
+    {
+      company: "TRAY Agency",
+      link: "https://clevertech.biz",
+      badges: ["Full-time"],
+      title: "Social Media Manager → Social Media Lead",
+      start: "2021",
+      end: "2022",
+      description:
+        "Designed and implemented comprehensive social media strategies to increase brand awareness and engagement. Monitored and analyzed social media metrics, using data to optimize social media campaigns.Collaborated with cross-functional teams, to ensure a consistent brand voice and messaging across all social media channels. Participated in creative content shoots, contributing to the development and execution of visual concepts. Skills: Digital Marketing, Facebook Ads Manager, Trello, Adobe Photoshop, Adobe Premiere Pro",
+    },
     {
       company: "Begishevo International Airport",
       link: "https://nbc.aero/",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Designed and implemented software solutions for business management using 1C:Enterprise platform. Collaborated with other teams, including product management and quality assurance, to ensure software meets business requirements. Provided technical support and troubleshoot issues reported by users.",
+        "Collaborated with cross-functional teams, including product management and quality assurance, to develop and implement software solutions using 1C:Enterprise platform, resulting in a seamless integration process and improved business efficiency. Provided technical support to users experiencing issues with the software, resolving 95% of reported problems within a timely manner, leading to increased user satisfaction. Participated in code reviews with team members, offering constructive feedback that resulted in a 20% decrease in bugs and errors within the software.",
     },
   ],
   skills: [
@@ -79,11 +79,11 @@ export const RESUME_DATA = {
     "TypeScript",
     "React",
     "Next.js",
+    "Node.js",
     "Tailwind",
-    "Cypress",
+    "Jest/Cypress",
     "Figma",
     "Responsive Design",
-    "Performance Optimization",
     "Problem-Solving",
     "Creativity",
     "Teamwork",
