@@ -6,11 +6,11 @@ export const RESUME_DATA = {
   name: "Aniia Hamilton",
   initials: "AH",
   location: "Nashville, Tennessee, United States",
-  locationLink: "https://maps.app.goo.gl/EmsevE51WQqASxpT8",
+  locationLink: "https://maps.app.goo.gl/g6MJzfyxRoG6P4jn8",
   about:
-    "Front-end Developer with 1+ years of experience |  Authorized to work for any US employer",
+    "Frontend Web Developer with 1+ years of experience |  Authorized to work for any US employer",
   summary:
-    "Detail-oriented Front-end Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
+    "Detail-oriented Frontend Web Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
   avatarUrl: "https://avatars.githubusercontent.com/u/101609705?v=4",
   personalWebsiteUrl: "https://www.aniia.dev/",
   contact: {
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
     },
     {
       company: "TRAY Agency",
-      link: "https://clevertech.biz",
+      link: "",
       badges: ["Full-time"],
       title: "Social Media Manager → Social Media Lead",
       start: "2021",
@@ -80,8 +80,7 @@ export const RESUME_DATA = {
     "React",
     "Next.js",
     "Node.js",
-    "Tailwind",
-    "Jest/Cypress",
+    "Tailwind CSS",
     "Figma",
     "Responsive Design",
     "Problem-Solving",
@@ -142,6 +141,22 @@ export const RESUME_DATA = {
       link: {
         label: "aniia.dev",
         href: "https://aniia.dev/",
+      },
+    },
+    {
+      title: "Cortland Apartments",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "RESTful API",
+      ],
+      description:
+        "The app lets users browse available apartments in Nashville's Cortland Community, showing availability, pricing, bd/bath count, sq ft, price history with a graph, and includes a filter feature.",
+      link: {
+        label: "cortland-apartments-app",
+        href: "https://github.com/aniiaham/cortland-apartments-app",
       },
     },
   ],
