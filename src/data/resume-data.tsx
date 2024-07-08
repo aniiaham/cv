@@ -7,10 +7,9 @@ export const RESUME_DATA = {
   initials: "AH",
   location: "Nashville, Tennessee, United States",
   locationLink: "https://maps.app.goo.gl/g6MJzfyxRoG6P4jn8",
-  about:
-    "Frontend Web Developer with 1+ years of experience |  Authorized to work for any US employer",
+  about: "Frontend Web Developer |  Authorized to work for any US employer",
   summary:
-    "Detail-oriented Frontend Web Developer with a focus on building products with extra attention to detail. My core stack is TypeScript, React, Next.js, and MongoDB. I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
+    "I'm a front-end developer with a background in Applied Mathematics and Computer Science, skilled in JavaScript, TypeScript, React, Next.js, Node.js, Tailwind CSS and SQL.",
   avatarUrl: "https://avatars.githubusercontent.com/u/101609705?v=4",
   personalWebsiteUrl: "https://www.aniia.dev/",
   contact: {
@@ -81,6 +80,7 @@ export const RESUME_DATA = {
     "Next.js",
     "Node.js",
     "Tailwind CSS",
+    "SQL",
     "Figma",
     "Responsive Design",
     "Problem-Solving",
@@ -116,7 +116,7 @@ export const RESUME_DATA = {
         "Next.js",
         "Tailwind CSS",
         "Shadcn",
-        "Custom Componenets",
+        "Custom Components",
         "Zod",
       ],
       description:
@@ -131,13 +131,13 @@ export const RESUME_DATA = {
       techStack: [
         "Side Project",
         "Next.js",
-        "Raect",
+        "React",
         "TypeScript",
         "Tailwind CSS",
         "Framer Motion",
       ],
       description:
-        "My personal website and blog. Built with Next.js, TypeScript, Tailwind and Framer-Motion",
+        "My personal website and blog. Built with Next.js, TypeScript, Tailwind CSS and Framer-Motion",
       link: {
         label: "aniia.dev",
         href: "https://aniia.dev/",
@@ -157,6 +157,31 @@ export const RESUME_DATA = {
       link: {
         label: "cortland-apartments-app",
         href: "https://github.com/aniiaham/cortland-apartments-app",
+      },
+    },
+    {
+      title: "Astro E-commerce",
+      techStack: [
+        "Side Project",
+        "Astro",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      description: "E-commerce site built with Astro",
+      link: {
+        label: "astro-e-commerce",
+        href: "https://github.com/aniiaham/astro-e-commerce",
+      },
+    },
+    {
+      title: "Recipes Finder",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Tailwind CSS"],
+      description:
+        "Recipe finder, which offers a wide variety of dishes to suit every taste.",
+      link: {
+        label: "recipes-app",
+        href: "https://github.com/aniiaham/recipes-app",
       },
     },
   ],
